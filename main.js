@@ -65,7 +65,7 @@ console.log(parOnone(8)) */
 /////////////////////////////////////EJERCICIOS EN CLASE///////////////////////////////////////////////////
 //////////////////////////////////////////////PRACTICA ESPECIES/////////////////////////////////////////////////////////////
 
-let pet
+/*let pet
 function petName (pet) {
    
         if (pet=="perro"){
@@ -80,6 +80,7 @@ function petName (pet) {
         
 }
 console.log(petName("pato"))
+
 ///////////////////////////////////////////PRACTICA DADOS////////////////////////////////////////////////////////////////
 let dado1, dado2
 function tirarDado (dado1, dado2){
@@ -94,4 +95,23 @@ function tirarDado (dado1, dado2){
     }
 }
 
-console.log (tirarDado(5,3))
+console.log (tirarDado(5,3))*/
+
+
+function palabra (a){
+    let wordEven=""
+    let wordOdd=""
+    for (i=0; i<a.length; i++){
+        if (i % 2 == 0){
+             wordEven +=a.at(i);""
+        } else if (i % 2 == 1){
+             wordOdd += a.at(i);""
+
+        }
+        
+        
+    }
+    console.log(wordEven, wordOdd)
+}
+        
+       palabra("fernando")
