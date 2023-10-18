@@ -1,4 +1,4 @@
-/*console.log("hola koders")
+console.log("hola koders")
 let a= 7
 let b=5
 
@@ -13,9 +13,9 @@ console.log("Resultado de la suma es:" +suma)
 console.log("Resultado de la resta es:"+ resta)
 console.log("Resultadode la multiplicacion  es:"+ multiplicacion)
 console.log("Resultado de la division es:"+ division)
-console.log("Resultado del modulo es:"+ modulo)*/
+console.log("Resultado del modulo es:"+ modulo)
 
-/*function suma(a, b){
+function suma(a, b){
     let resultsuma = a+b;
     return resultsuma
 }
@@ -60,75 +60,9 @@ console.log(multiplicacion(10,20))
 console.log(division(10,20))
 console.log(modulo(10,20))
 console.log(mayorque(20,20))
-console.log(parOnone(8)) */
-
-/////////////////////////////////////EJERCICIOS EN CLASE///////////////////////////////////////////////////
-//////////////////////////////////////////////PRACTICA ESPECIES/////////////////////////////////////////////////////////////
-
-/*let pet
-function petName (pet) {
-   
-        if (pet=="perro"){
-            return "Tu perro se podria llamar Milaneso";
-        } else if (pet=="gato"){
-            return "Tu gato se podria llamar Michiflais";
-        } else if (pet=="ave"){
-                return "Tu ave se podria llamar piolin";
-        } else{
-            return "No conozco la especie";
-        }
-        
-}
-console.log(petName("pato"))
-
-///////////////////////////////////////////PRACTICA DADOS////////////////////////////////////////////////////////////////
-let dado1, dado2
-function tirarDado (dado1, dado2){
-    if ((dado1>=1 && dado1<=6) && (dado2>=1 && dado2<=6)){
-        if ((dado1==2 && dado2==2) || (dado1==4 && dado2==6) || ( dado1==1 && dado2==1) || (dado1==6 && dado2==4)){
-            return "GANASTE"
-        } else  {
-            return "SUERTE PARA LA PROXIMA PERDEDOR"
-        } 
-    } else {
-        return "NUMEROS INVALIDOS"
-    }
-}
-
-console.log (tirarDado(5,3))*/
+console.log(parOnone(8)) 
 
 
-/*function palabra (word){
-    let wordEven=""
-    let wordOdd=""
-    for (i=0; i<word.length; i++){
-        if (i % 2 == 0){
-             wordEven +=word.at(i);""
-        } else if (i % 2 == 1){
-             wordOdd += word.at(i);""
-
-        }
-        
-        
-    }
-    console.log (wordEven, wordOdd)
-}
-        
-       palabra ("onomatopeya")*/
-
-//////////////////////////////////////////////////////////////////////////////////////////
 
 
-function txtSize (txt, num ){
-    let newtxt=""
-    if (num<txt.length){
-        for (i=0; i<num; i++){
-            newtxt +=txt.at(i)
-        }
-        } else {
-      console.log("error")
-                }
-    
-    console.log(newtxt)
- }
- txtSize("abcdefghijklmnñ",5)
+
