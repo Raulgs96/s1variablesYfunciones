@@ -98,20 +98,37 @@ function tirarDado (dado1, dado2){
 console.log (tirarDado(5,3))*/
 
 
-function palabra (a){
+/*function palabra (word){
     let wordEven=""
     let wordOdd=""
-    for (i=0; i<a.length; i++){
+    for (i=0; i<word.length; i++){
         if (i % 2 == 0){
-             wordEven +=a.at(i);""
+             wordEven +=word.at(i);""
         } else if (i % 2 == 1){
-             wordOdd += a.at(i);""
+             wordOdd += word.at(i);""
 
         }
         
         
     }
-    console.log(wordEven, wordOdd)
+    console.log (wordEven, wordOdd)
 }
         
-       palabra("fernando")
+       palabra ("onomatopeya")*/
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+function txtSize (txt, num ){
+    let newtxt=""
+    if (num<txt.length){
+        for (i=0; i<num; i++){
+            newtxt +=txt.at(i)
+        }
+        } else {
+      console.log("error")
+                }
+    
+    console.log(newtxt)
+ }
+ txtSize("abcdefghijklmnñ",5)
