@@ -43,7 +43,7 @@ console.log(resta(10,20))
 console.log(multiplicacion(10,20))
 console.log(division(10,20))
 console.log(modulo(10,20))
-console.log(mayorque(20,20))
+console.log(mayorque(30,20))
 console.log(parOnone(8)) 
 
 

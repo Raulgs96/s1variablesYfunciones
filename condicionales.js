@@ -50,4 +50,4 @@ function palabra (word){
     console.log (wordEven, wordOdd)
 }
         
-       palabra ("onomatopeya")
+       palabra ("armando")

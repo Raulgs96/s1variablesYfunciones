@@ -10,4 +10,4 @@ function txtSize (txt, num ){
     
     console.log(newtxt)
  }
- txtSize("abcdefghijklmnñ",5)
+ txtSize("abcdefghijklmnñ",55)
