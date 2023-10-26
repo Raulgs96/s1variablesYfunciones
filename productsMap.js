@@ -275,7 +275,7 @@ let products = [
 //1.- crear una nueva lista que contenga todos los productos con su precio en MXN
   const fixMxn = (dolars) =>{
     let result = dolars.map((item) => {
-        return { price: item.price * 18 };
+      return {...item, price: item.price * 18};
     }) 
     console.log(result)
   }
