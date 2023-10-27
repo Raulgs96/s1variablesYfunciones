@@ -291,7 +291,7 @@ console.log(justNames);
 console.log("************************************************************************")
 // 3.- crear una nueva lista que contenga los productos con su descripción limitada a 10 palabras
 let productsDescription = products.map(function(nombre){
-  let newArray  = nombre.description.split(" ").slice(0,10)
+  let newArray  = nombre.description.split(" ",10).join(" ")
     return (`${nombre.title} " --> //////////DESCRIPTION //////////// -->"` +newArray )
 })
 
