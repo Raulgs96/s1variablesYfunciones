@@ -54,11 +54,5 @@ function obtenerDatos(){
     return userCol;
     }
 
-//////EXA
-    const printUserCard = (userList) =>{
 
-        let users= document.getElementById("users");
-        let userCard = createUserCard(userList);
-        users.append(userCard);
-          };
-    printUserCard(userList)
+   
